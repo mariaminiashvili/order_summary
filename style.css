@@ -1,4 +1,5 @@
 body{
+    font-family: 'Red Hat Display', sans-serif;
     background-image: url("./pattern-background-desktop.svg");
     background-color:#F2F2F2;
     background-repeat: no-repeat;
@@ -8,6 +9,7 @@ body{
     align-items: center;
     justify-content: center;
 }
+
 .card{
     background-color: #FFFFFF;
     width: 450px;
@@ -15,30 +17,30 @@ body{
     border-radius: 20px;
 
 }
+
 img{
     width: 450px;
     height: 220px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px ;
 }
+
 .order{
-    font-family: "red-hat-disfley";
     Line-height: 100%;
     margin-left: 48px;
     margin-right: 48px;
     }
+
 h1{
     color: #1F2E55;
     display: flex;
     align-items: center;
     justify-content: center;
    }
+
 p{
-    font-family: Red Hat Display;
     font-weight: 500;
     color: #717FA6;
-    margin-right: 48px;
-    margin-left: 48px;
     text-align: center;
     line-height: 26px;
 }
@@ -50,35 +52,41 @@ p{
   margin-left: 24px;
   
 }
+
 .icon path:hover{
     fill: #382AE1;
 
 }
+
 .year{
     color: #717FA6;
     margin-bottom: 25px;
 }
+
 .ann{
     color: #1F2E55;
     font-weight: 900;
-    font-family: "Red Hat Display";
     margin-bottom: 6px;
     margin-top: 25px;
 }
+
 .change{
     color: #382AE1;
     font-weight: 900;
     margin-right: 25px;
 }
+
 .left{ 
     display: flex;
     align-items: center;
     justify-content:left;
 }
+
 .plan{
     display: flex;
     flex-direction: column;
 }
+
 .rect{
     background-color: #F7F9FF;
     width: 354px;
@@ -91,16 +99,18 @@ p{
     margin-left: 48px;
     margin-bottom: 32px;
 }
+
 .pur{
     Height:50px;
     display: flex;
     justify-content: center;
 }
+
 .pay{
    color: #FFFFFF;
    font-weight:900;
-   Width:150px;
 }
+
 .window{
     display: flex;
     justify-content: center;
@@ -111,8 +121,8 @@ p{
     border-radius: 11px;
     margin-left: 48px;
 }
+
 .cencel{
-    width: 96px;
     height: 20px;
     font-weight: 900;
     size:15px;
